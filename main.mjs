@@ -7,7 +7,7 @@ console.error = (message, ...optionalParams) => {
     originalConsoleError(message, ...optionalParams);
 };
 
-const folderPath = "C:\\Users\\uz1584gj\\AppData\\Roaming\\.minecraft\\mods";
+const folderPath = "REPLACE THIS WITH THE MINECRAFT MODS FOLDER PATH";
 const downloadDir = path.join(process.env.USERPROFILE, 'Downloads\\UpdatedMods');
 
 const userAgents = [
@@ -98,5 +98,5 @@ const main = async (version, platform) => {
     }
 };
 
-const [,, version, platform, getSlugNames] = process.argv;
-main("1.21.1", "fabric");
+const [,, version, platform] = process.argv;
+main(version, platform);
