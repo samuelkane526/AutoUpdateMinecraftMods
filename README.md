@@ -7,5 +7,5 @@ Directions:
   2. Install jsdom using `npm install jsdom`
   3. Install node-fetch using `npm install node-fetch`.
   4. Run using node main.mjs.
-  5. Input the version and platform you want after the command. For example, `node main.mjs "1.21.1" "fabric"`.
+  5. Input the version and platform you want after the command. For example, `node main.mjs 1.21.1 Fabric`.
   6. Find the downloaded mods in the downloads folder.
